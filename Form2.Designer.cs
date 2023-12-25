@@ -51,6 +51,7 @@
             this.button5.TabIndex = 35;
             this.button5.Text = "arama";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // button4
             // 
@@ -60,6 +61,7 @@
             this.button4.TabIndex = 34;
             this.button4.Text = "guncelle";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -69,6 +71,7 @@
             this.button3.TabIndex = 33;
             this.button3.Text = "sil";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -78,6 +81,7 @@
             this.button2.TabIndex = 32;
             this.button2.Text = "ekle";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox3
             // 
@@ -152,6 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1141, 471);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button5);
